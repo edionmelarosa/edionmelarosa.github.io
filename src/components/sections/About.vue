@@ -1,8 +1,8 @@
 <template>
     <section id="about">
-        <p>Currently, working with SandboxDigital as Web Developer and SysAdmin.
+        <p>Currently, working as freelance Web Developer and SysAdmin.
             I have been doing Web Development (little of  Mobile with MeteorJs)
-            for about 5 years since college.
+            for about 7 years since college.
             When not coding, I do mountain climbing and cycling with friends,
             this has been my stress reliever.
         </p>

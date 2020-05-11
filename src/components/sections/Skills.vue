@@ -17,14 +17,15 @@ export default {
     data() {
         return {
             skills: [
-                { skill: 'PHP-Laravel', level: 'Intermediate' },
+                { skill: 'PHP/Laravel', level: 'Advanced' },
+                { skill: 'VueJS', level: 'Advanced' },
                 { skill: 'HTML,HTML5', level: 'Advanced' },
-                { skill: 'Css, Sass, Scss', level: 'Advanced' },
-                { skill: 'Css, Sass, ScssJavaScript, jQuery, VueJS, AngularJS', level: 'Intermediate' },
-                { skill: 'MeteorJS', level: 'Limited' },
-                { skill: 'GoLang', level: 'Limited' },
+                { skill: 'GIT', level: 'Advanced' },
+                { skill: 'Css, Sass, Scss', level: 'Intermediate' },
                 { skill: 'WordPress', level: 'Intermediate' },
                 { skill: 'MySQL', level: 'Intermediate' },
+                { skill: 'MeteorJS', level: 'Limited' },
+                { skill: 'GoLang', level: 'Limited' },
                 { skill: 'System Administration', level: 'Limited' },
                 { skill: 'Amazon AWS', level: 'Limited' },
                 { skill: 'Project Management', level: 'Limited' },

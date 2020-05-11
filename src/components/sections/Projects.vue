@@ -3,44 +3,70 @@
         <span class="h1"><a href="#">Projects</a></span>
         <ul class="project-list">
 
-            <li class="project-item">
-                <p><a href="https://www.growitlocal.com/" target="_blank">Grow It Local</a>: Local grow community
-                <br>* Project with SandboxDigital
-                <span>| Role: Full stack Developer, System Admin</span>
+            <li class="project-item"
+                v-for="(project, index) in projects" :key="index"
+            >
+                <p>
+                    <a 
+                        :href="project.link" target="_blank"
+                    >
+                    {{project.name}}
+                </a>
+                    : {{project.description}}
+                    <br>
+                    * {{project.company}}
+                    <span v-if="project.role">| Role: {{project.role}}</span>
                 </p>
             </li>
-
-            <li class="project-item">
-                <p><a href="https://github.com/edionmelarosa/e-hunter" target="_blank">E-Hunter</a>: Simple email address finder using MeteorJs.
-                <br>* Personal Project
-                </p>
-            </li>
-
-            <li class="project-item">
-                <p><a href="https://github.com/edionmelarosa/email-helper" target="_blank">Email-helper</a>: MeteorJs Package for sending emails.
-                <br>* Personal Project
-                </p>
-            </li>
-
-            <li class="project-item">
-                <p><a href="https://curator.io/" target="_blank">Curator.io</a>: A social aggregator pulls your social media posts across multiple channels into one feed that can be embedded anywhere and customised with your own unique branding.
-                <br>* Project with SandboxDigital
-                <span>| Role: Back-end Developer</span>
-                </p>
-            </li>
-
-            <li class="project-item">
-                <p><a href="https://www.aircamp.com.au/" target="_blank">Aircamp</a>: Campsites and Caravan finder in Australia.
-                <br>* Project with SandboxDigital
-                <span>| Role: Back-end Developer</span>
-                </p>
-            </li>
+            
         </ul>
     </section>
 </template>
  target="_blank"
 <script>
 export default {
-    name: 'Projects'
+    name: 'Projects',
+
+    data() {
+        return {
+            projects: [
+                {
+                    name: 'Grow It Local',
+                    link: 'https://www.growitlocal.com/',
+                    description: 'Local grow community.',
+                    company: 'Project with SandboxDigital',
+                    role: 'Full stack Developer, System Admin'
+                },
+                {
+                    name: 'Curator.io',
+                    link: 'https://curator.io/',
+                    description: 'A social aggregator pulls your social media posts across multiple channels into one feed that can be embedded anywhere and customised with your own unique branding.',
+                    company: 'Project with SandboxDigital',
+                    role: 'Back-end Developer'
+                },
+                {
+                    name: 'Aircamp',
+                    link: 'https://www.aircamp.com.au/',
+                    description: 'Campsites and Caravan finder in Australia.',
+                    company: 'Project with SandboxDigital',
+                    role: 'Back-end Developer'
+                },
+                {
+                    name: 'E-Hunter',
+                    link: 'https://github.com/edionmelarosa/e-hunter',
+                    description: 'Simple email address finder using MeteorJs.',
+                    company: 'Personal Project',
+                    role: null
+                },
+                {
+                    name: 'Email-helper',
+                    link: 'https://github.com/edionmelarosa/email-helper',
+                    description: 'MeteorJs Package for sending emails.',
+                    company: 'Personal Project',
+                    role: null
+                }
+            ]
+        }
+    }
 }
 </script>

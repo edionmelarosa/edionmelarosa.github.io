@@ -3,7 +3,7 @@
         <a href="#">
             <div id="logo"></div>
             <div id="title">
-                <h1>Edion Larosa | Web/Mobile Developer</h1>
+                <h1>Edion Larosa | Web Developer</h1>
             </div>
         </a>
         <div id="nav">
