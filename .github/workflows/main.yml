@@ -12,6 +12,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:
-        EMAIL: ${{ secrets.ACCESS_TOKEN }}
+        EMAIL: edion.larosa@gmail.com
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: dist/
