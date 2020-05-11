@@ -2,7 +2,7 @@ name: GitHub Pages deploy
 on:
   push:
     branches:
-      - master
+      - testing
 jobs:
   checkout-and-deploy:
     runs-on: ubuntu-latest
@@ -12,6 +12,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:
-        EMAIL: edion.larosa@gmail.com
+        EMAIL: ${{ secrets.ACCESS_TOKEN }}
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: dist/
