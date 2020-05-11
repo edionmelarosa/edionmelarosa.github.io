@@ -14,4 +14,4 @@ jobs:
       env:
         EMAIL: edion.larosa@gmail.com
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: dist
+        BUILD_DIR: dist/
