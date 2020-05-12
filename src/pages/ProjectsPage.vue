@@ -25,7 +25,7 @@
  target="_blank"
 <script>
 export default {
-    name: 'Projects',
+    name: 'ProjectsPage',
 
     data() {
         return {

@@ -9,20 +9,17 @@
             </p>
         </div>
         <div class="footer-right">
-            <nav>
-                <ul>
-                    <li><a href="#" v-scroll-to="'body'">Home</a></li>
-                    <li><a href="#" v-scroll-to="'#about'">About</a></li>
-                    <li><a href="#" v-scroll-to="'#skills'">Technologies</a></li>
-                    <li><a href="#" v-scroll-to="'#projects'">Projects</a></li>
-                </ul>
-            </nav>
+            <nav-section />
         </div>
     </footer>
 </template>
 
 <script>
 export default {
-    name: 'TheFooter'
+    name: 'FooterSection',
+
+    components: {
+        NavSection: () => import('@/sections/NavSection')
+    }
 }
 </script>

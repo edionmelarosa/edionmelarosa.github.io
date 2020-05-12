@@ -1,0 +1,24 @@
+<template>
+    <header id="header">
+        <a href="#">
+            <div id="logo"></div>
+            <div id="title">
+                <h1>Edion Larosa | Web Developer</h1>
+            </div>
+        </a>
+
+        <nav-section />
+
+    </header>
+</template>
+
+<script>
+export default {
+    name: 'HeaderSection',
+
+    components: {
+        NavSection: () => import('@/sections/NavSection')
+    }
+}
+</script>
+

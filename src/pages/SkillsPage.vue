@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: 'Skills',
+    name: 'SkillsPage',
 
     data() {
         return {

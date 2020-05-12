@@ -3,23 +3,21 @@
 <template>
     <div id="app" class="max-width mx-auto px3">
         <div class="content index my4">
-            <the-header></the-header>
+            <header-section />
             <router-view/>
         </div>
-            <the-footer></the-footer>
+            <footer-section />
     </div>
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader'
-import TheFooter from '@/components/TheFooter'
 
 export default {
     name: 'App',
 
     components: {
-        TheHeader,
-        TheFooter
+        HeaderSection: () => import('./sections/HeaderSection'),
+        FooterSection: () => import('@/sections/FooterSection')
     }
 }
 </script>
