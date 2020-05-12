@@ -1,6 +1,6 @@
 <template>
     <section id="about">
-        <p>Hello, i'm, Edion Larosa. Web Developer from Philippines. 
+        <p>Hello, I'm Edion Larosa. Web Developer from Philippines. 
             Currently, working as freelance Web Developer and SysAdmin.
             I have been doing Web Development (little of  Mobile with MeteorJs)
             for about 7 years since college.
