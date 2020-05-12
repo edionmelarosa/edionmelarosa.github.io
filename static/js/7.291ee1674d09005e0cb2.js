@@ -1,0 +1,2 @@
+webpackJsonp([7],{GDmo:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this.$createElement,e=this._self._c||t;return e("nav",{attrs:{id:"nav"}},[e("ul",[e("li",[e("router-link",{attrs:{to:"/"}},[this._v("Home")])],1),this._v(" "),e("li",[e("router-link",{attrs:{to:"blogs"}},[this._v("Blogs")])],1)])])},staticRenderFns:[]},l=n("VU/8")({name:"NavSection"},r,!1,null,null,null);e.default=l.exports}});
+//# sourceMappingURL=7.291ee1674d09005e0cb2.js.map
