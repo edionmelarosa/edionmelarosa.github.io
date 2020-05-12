@@ -14,6 +14,10 @@ jobs:
           npm install
           npm run build
 
+      - name: Fix ownership 🔧 
+        run: |
+          sudo chown -R "${USER:-$(id -un)}" .
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
