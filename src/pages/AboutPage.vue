@@ -1,7 +1,7 @@
 <template>
     <section id="about">
         <p>Hello, I'm Edion Larosa. Full-stack Developer from Philippines. 
-           Currenly, working at EasyPayroll. I this publication, I share what projects I worked on(if it's allowed to do so).
+           Currenly looking for a new team to be part on. I this publication, I share what projects I worked on(if it's allowed to do so).
            I will also share everything I know about web development. 
         </p>
         <!-- <p>An active member/volunteer (acting as Program Head) of <a href="https://devcon.ph/" target="_blank">DevCon Davao</a>, Philippines. Where we share our knowledge and experience with students, educators, professionals and enthusiasts to Sync, Support and Succeed.</p> -->

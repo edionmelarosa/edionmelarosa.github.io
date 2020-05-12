@@ -122,7 +122,7 @@ build-and-deploy:
             style="border: 1px solid #ccc;"
         >
 
-        <p>If everything setup properyly, you will see like this.</p>
+        <p>If everything setup properly, you will see like this.</p>
         <img 
             src="@/assets/images/github-successfull-deployment.jpg" 
             alt="Github success deployment"
