@@ -1,15 +1,11 @@
 <template>
     <footer id="footer">
         <div class="footer-left">
-            <span>Copyright © 2018 Edion Larosa</span>
             <p>Powered by:
                 <a href="https://vuejs.org" target="_blank"><i class="fab fa-vuejs"></i></a>
                 and
                 <a href="https://pages.github.com/" target="_blank"><i class="fab fa-github"></i></a>
             </p>
-        </div>
-        <div class="footer-right">
-            <nav-section />
         </div>
     </footer>
 </template>

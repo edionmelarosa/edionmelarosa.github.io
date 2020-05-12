@@ -1,6 +1,6 @@
 <template>
     <section id="skills">
-        <span class="h1"><a href="#">Technologies / Skills</a></span>
+        <h2>Technologies / Skills</h2>
         <ul class="post-list">
             <li v-for="(skill, index) in skills" :key="index" class="post-item">
                 <div class="meta">{{skill.skill}} | </div>

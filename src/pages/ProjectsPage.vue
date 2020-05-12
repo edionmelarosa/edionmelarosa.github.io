@@ -1,6 +1,6 @@
 <template>
     <section id="projects">
-        <span class="h1"><a href="#">Projects</a></span>
+        <h2>Projects</h2>
         <ul class="project-list">
 
             <li class="project-item"

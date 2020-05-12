@@ -1,13 +1,10 @@
 <template>
     <section id="about">
-        <p>Hello, I'm Edion Larosa. Web Developer from Philippines. 
-            Currently, working as freelance Web Developer and SysAdmin.
-            I have been doing Web Development (little of  Mobile with MeteorJs)
-            for about 7 years since college.
-            When not coding, I do mountain climbing and cycling with friends,
-            this has been my stress reliever.
+        <p>Hello, I'm Edion Larosa. Full-stack Developer from Philippines. 
+           Currenly, working at EasyPayroll. I this publication, I share what projects I worked on(if it's allowed to do so).
+           I will also share everything I know about this business. 
         </p>
-        <p>An active member/volunteer (acting as Program Head) of <a href="https://devcon.ph/" target="_blank">DevCon Davao</a>, Philippines. Where we share our knowledge and experience with students, educators, professionals and enthusiasts to Sync, Support and Succeed.</p>
+        <!-- <p>An active member/volunteer (acting as Program Head) of <a href="https://devcon.ph/" target="_blank">DevCon Davao</a>, Philippines. Where we share our knowledge and experience with students, educators, professionals and enthusiasts to Sync, Support and Succeed.</p> -->
         <p>
             Find me on
             <a class="icon" target="_blank" href="https://github.com/edionmelarosa">

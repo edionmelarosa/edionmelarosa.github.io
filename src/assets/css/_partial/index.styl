@@ -8,9 +8,8 @@
 
     .meta
       display: block
-      margin-right: 15px
+      margin-right: 5px
       color: $color-meta
-      font-size: 14px
 
 @media (min-width: 480px)
   .post-list
@@ -27,3 +26,26 @@
 
   .project-item
     margin-bottom: 5px
+
+.section-list
+  padding: 0
+  list-style: none
+
+  .section-item
+    margin-bottom: 5px
+    background: #f6f8fa
+    padding: 2px 15px
+    border-radius: 5px
+    border: 1px solid #ccc
+    cursor pointer;
+
+    &:hover {
+        background-color: #fff;
+    }
+
+    span 
+        font-size: 16px
+
+    small
+      color: gray;
+      font-size: 15px;

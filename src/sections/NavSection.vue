@@ -1,10 +1,12 @@
 <template>
     <nav id="nav">
         <ul>
-            <li><a href="#" v-scroll-to="'body'">Home</a></li>
-            <li><a href="#" v-scroll-to="'#about'">About</a></li>
-            <li><a href="#" v-scroll-to="'#skills'">Technologies</a></li>
-            <li><a href="#" v-scroll-to="'#projects'">Projects</a></li>
+            <li>
+                <router-link to="/">Home</router-link>
+            </li>
+            <li>
+                <router-link to="blogs">Blogs</router-link>
+            </li>
         </ul>
     </nav>
 </template>
