@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@2.1.0
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:
         EMAIL: edion.larosa@gmail.com
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: dist/
+        BUILD_DIR: _site
